@@ -6,6 +6,16 @@ module.exports = {
     "./src/templates/**/*.{js,jsx,ts,tsx}",
     "./src/config/**/*.{js,jsx,ts,tsx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        heading: "var(--wp--preset--font-family--aboreto)",
+      },
+      colors: {
+        "turkish-racing-green":
+          "var(--wp--preset--color--turkish-racing-green)",
+      },
+    },
+  },
   plugins: [],
 };

@@ -4,7 +4,12 @@ require("dotenv").config({
 
 /**
  * @type {import('gatsby').GatsbyConfig}
+ * 
+ 
  */
+
+process.env.WP_INCONSISTENT_SCHEMA_WARN = "true";
+
 module.exports = {
   siteMetadata: {
     title: `The Gatsby Garage`,
